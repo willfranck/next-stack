@@ -1,3 +1,28 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+    - [
+  📘 Docs
+  | ☁️ Hosted Version
+  | ✨ Demo
+  | 🎮 Discord
+
+
+
+
+](#-docs%0A----hosted-version%0A----demo%0A----discord)
+- [Stack Auth: Open-source Clerk/Auth0 alternative](#stack-auth-open-source-clerkauth0-alternative)
+  - [✨ Features](#-features)
+  - [📦 Installation & Setup](#-installation--setup)
+  - [🏗 Development & Contribution](#-development--contribution)
+    - [Requirements](#requirements)
+    - [Setup](#setup)
+    - [Development environment port mapping](#development-environment-port-mapping)
+    - [Database migrations](#database-migrations)
+    - [Chat with the codebase](#chat-with-the-codebase)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ![Stack Logo](/.github/assets/logo.png)
 
 <h3 align="center">
