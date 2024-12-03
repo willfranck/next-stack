@@ -1,0 +1,53 @@
+{
+  "name": "@stackframe/stack-sc",
+  "version": "2.6.31",
+  "exports": {
+    "./force-react-server": {
+      "types": "./dist/index.react-server.d.ts",
+      "default": "./dist/index.react-server.js"
+    },
+    "./force-default": {
+      "types": "./dist/index.default.d.ts",
+      "default": "./dist/index.default.js"
+    },
+    ".": {
+      "types": "./dist/index.combined.d.ts",
+      "react-server": "./dist/index.react-server.js",
+      "default": "./dist/index.default.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist && rimraf node_modules",
+    "dev": "tsc -w --preserveWatchOutput --declarationMap",
+    "lint": "eslint --ext .tsx,.ts ."
+  },
+  "files": [
+    "README.md",
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "next": ">=14.1 || >=15.0.0-rc.0",
+    "react": ">=18.2 || >=19.0.0-rc.0",
+    "react-dom": ">=18.2 || >=19.0.0-rc.0",
+    "@types/react": ">=18.3.12 || >=19.0.0-rc.0",
+    "@types/react-dom": ">=18.3.1 || >=19.0.0-rc.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "next": "^14.1.0"
+  }
+}
